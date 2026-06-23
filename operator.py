@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+operator=input()
+if(operator=="add"):
+    print(a+b)
+elif(operator=="sub"):
+    print(a-b)
+elif(operator=="mul"):
+    print(a*b)
+elif(operator=="div"):
+    print(a/b)
