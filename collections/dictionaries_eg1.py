@@ -1,0 +1,11 @@
+dic_details={"name":"John", "age":30, "city":"New York"}
+print(dic_details)
+print("Name:", dic_details["name"])
+print("Age:", dic_details["age"])
+print("City:", dic_details["city"])
+print("Keys:", dic_details.keys())
+print("Values:", dic_details.values())
+print("Items:", dic_details.items())
+print("Length of dictionary:", len(dic_details))
+print("Is 'name' in dictionary:", "name" in dic_details)
+print("Is 'country' in dictionary:", "country" in dic_details)
