@@ -1,0 +1,8 @@
+def findeven_odd(number):
+     if number % 2 == 0:
+         print("The number is even")
+     else:
+         print("The number is odd")
+
+a=int(input("Enter a number: "))        
+findeven_odd(a)
