@@ -1,0 +1,18 @@
+class phone:
+    chargetype = "Type-C"           #class variable
+    def __init__(self):
+        self.brand = "Samsung"
+        self.price = 200000
+        
+        
+    def getdata(self,price):
+        self.price=price
+        
+    def show(self):
+        print("Brand:",self.brand)
+        print("Price:",self.price)
+        print("Charge Type:",self.chargetype)
+
+sam=phone()
+sam.getdata(250000)
+sam.show()
