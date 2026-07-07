@@ -4,8 +4,7 @@ class phone:
         self.brand = "Samsung"
         self.price = 200000
         
-        
-    def getdata(self,price):
+    def getdata(self,price):           #instance method
         self.price=price
         
     def show(self):
