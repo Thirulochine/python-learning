@@ -1,3 +1,4 @@
+#single inheritance
 class dad:
     def obj(self):
         print("this is dad mobile")
