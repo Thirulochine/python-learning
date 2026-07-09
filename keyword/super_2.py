@@ -13,15 +13,15 @@ class b():
     def num(self):
         print("from b class") 
         
-'''class c(a,b):
+'''class c(a,b):               #()inside 1st works as super
     def __init__(self):
         super().__init__()
-        print("c is displayed")
+        print("c is displayed")               
         
     def num(self):
         print("from c class")'''
         
-class c(b,a):
+class c(b,a):                 #()inside 1st works as super
     def __init__(self):
         super().__init__()
         print("c is displayed")
