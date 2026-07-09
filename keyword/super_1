@@ -1,0 +1,17 @@
+class a():
+    def __init__(self):
+        print("a is displayed")
+        
+    def num(self):
+        print("from a class")
+        
+class b(a):
+    def __init__(self):
+        super().__init__()
+        print("b is displayed")
+        
+    def num(self):
+        print("from b class")
+
+obj=b()
+   
