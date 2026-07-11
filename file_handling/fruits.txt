@@ -1,4 +1,2 @@
-fruits name are:
-mango
-apple
-orange
+banana
+pineapple
