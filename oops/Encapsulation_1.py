@@ -3,7 +3,7 @@ class a():
         self._company="wipro"     #protector
         
 class b(a):
-    def display(self):
+    def display(self):            #child class also access
         print(self._company)
     
 bb=b()
